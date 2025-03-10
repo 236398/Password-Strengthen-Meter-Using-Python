@@ -104,12 +104,6 @@ def main():
             st.info("🔎 Your password is decent, but you can make it even "
                     "stronger!")
 
-    st.markdown("""
-        <div style="text-align: center; margin-top: 20px; color: #888;">
-            <small>Developed with ❤️ using Streamlit</small>
-        </div>
-    """, unsafe_allow_html=True)
-
 
 if __name__ == "__main__":
     main()
